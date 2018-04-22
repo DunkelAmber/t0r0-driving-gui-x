@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="../Images/joystick.png">/home/francesco/catkin_ws/src/t0r0_driving_gui/Images/joystick.png</file>
+</qresource>
+</RCC>
