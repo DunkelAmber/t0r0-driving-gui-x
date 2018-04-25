@@ -2,6 +2,10 @@
 
 Another simple gui for T0R0!
 
+# Compile from Command-Line
+```
+cd /home/<user>/catkin_ws/ && catkin_make
+```
 
 # Launch from Command-Line
 ```
