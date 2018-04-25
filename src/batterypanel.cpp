@@ -41,5 +41,5 @@ void BatteryPanel::paintEvent(QPaintEvent *)
 
 void BatteryPanel::setCharge(int charge)
 {
-	battery1->setCharge(charge);
+	//battery1->setCharge(charge);
 }
