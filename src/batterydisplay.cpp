@@ -1,10 +1,11 @@
 #include "batterydisplay.h"
 
-BatteryDisplay::BatteryDisplay()
+BatteryDisplay::BatteryDisplay(QWidget *parent) : QWidget(parent)
 {
 
 }
-BatteryDisplay::paintEvent(QPaintEvent )
+
+BatteryDisplay::paintEvent(QPaintEvent *)
 {
 	QPainter painter(this);
 
