@@ -34,12 +34,12 @@ void BatteryPanel::paintEvent(QPaintEvent *)
     battery3->setGeometry(BAT_WIDTH + 50, 20, BAT_WIDTH, BAT_HEIGHT);
     battery3->show();
 */
-    battery1->setCharge(50);
+    battery1->setCharge(charge);
     //battery2->setCharge(100);
     //battery3->setCharge(80);
 }
 
-void BatteryPanel::setCharge(int charge)
+void BatteryPanel::setCharge(int _charge)
 {
-	//battery1->setCharge(charge);
+	charge = _charge;
 }
