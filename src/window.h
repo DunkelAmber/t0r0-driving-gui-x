@@ -7,6 +7,7 @@
 #include "startbutton.h"
 #include "batteryindicator.h"
 #include "batterypanel.h"
+#include "batterydisplay.h"
 #include "imagebutton.h"
 #include <QLabel>
 
