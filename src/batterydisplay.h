@@ -19,7 +19,7 @@ class BatteryDisplay : public QWidget
 {
 		Q_OBJECT
 	public:
-    BatteryDisplay();
+    explicit BatteryDisplay(QWidget *parent = 0);
 	signals:
 
 	public slots:
