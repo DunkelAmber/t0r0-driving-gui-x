@@ -8,16 +8,15 @@ BatteryPanel::BatteryPanel(QWidget *parent) : QWidget(parent)
 
 void BatteryPanel::paintEvent(QPaintEvent *)
 {
-    QPainter painterpanel(this);
+    QPainter painter(this);
+		/*
+    painter.setPen(QColor(255,255,255));
+    painter.drawText(0, 17, "Battery Pack");
 
-    painterpanel.setPen(QColor(255,255,255));
-    ;
-    painterpanel.drawText(0, 17, "Battery Pack");
-
-    painterpanel.setBrush(QColor(45, 45, 45));
-    painterpanel.setBrush(QColor(0,0,0,0));
-    painterpanel.drawRect(0, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
-
+    painter.setBrush(QColor(45, 45, 45));
+    painter.setBrush(QColor(0,0,0,0));
+    painter.drawRect(0, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+*/
     int batterySlideSideSpacer = 20;
     int batteryColoumn0L = batterySlideSideSpacer;
     int batteryColoumno0R = BAT_WIDTH + batterySlideSideSpacer;

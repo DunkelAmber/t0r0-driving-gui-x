@@ -36,8 +36,11 @@ Window::Window(QRect screen, QWidget *parent) : QWidget(parent)
     rover = new RoverShow(this);
     rover->setGeometry(300, 0, this->width() - 600, this->height() - 100);
 
-    batterypanel1 = new BatteryPanel(this);
-    batterypanel1->setGeometry(1350, (this->height() - BAT_PANEL_HEIGHT) / 2, BAT_PANEL_WIDTH + 2, BAT_PANEL_HEIGHT + 2);
+		batterydisplay = new BatteryDisplay(this);
+		batterydisplay->setGeometry(1350, (this->height() - BAT_DISPLAY_HEIGHT) / 2, BAT_DISPLAY_WIDTH + 2, BAT_DISPLAY_HEIGHT + 2);
+
+    //batterypanel1 = new BatteryPanel(this);
+    //batterypanel1->setGeometry(1350, (this->height() - BAT_PANEL_HEIGHT) / 2, BAT_PANEL_WIDTH + 2, BAT_PANEL_HEIGHT + 2);
     /*
     battery1 = new BatteryIndicator(this);
     battery1->setGeometry(this->width() / 2 + 200, this->height() - 190, BAT_WIDTH, BAT_HEIGHT);

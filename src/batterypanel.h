@@ -10,8 +10,8 @@
 #define BAT_PANEL_WIDTH 500
 #define BAT_PANEL_HEIGHT 700
 
-#define COL_SPACER 10
-#define ROW_SPACER 10
+//#define COL_SPACER 10
+//#define ROW_SPACER 10
 
 class BatteryPanel : public QWidget
 {
