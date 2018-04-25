@@ -2,7 +2,7 @@
 
 BatteryPanel::BatteryPanel(QWidget *parent) : QWidget(parent)
 {
-
+	charge = 0;
 }
 
 
