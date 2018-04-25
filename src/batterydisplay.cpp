@@ -5,7 +5,7 @@ BatteryDisplay::BatteryDisplay(QWidget *parent) : QWidget(parent)
 
 }
 
-BatteryDisplay::paintEvent(QPaintEvent *)
+void BatteryDisplay::paintEvent(QPaintEvent *)
 {
 	/*
 	QPainter painter(this);
