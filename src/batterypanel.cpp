@@ -17,7 +17,7 @@ void BatteryPanel::paintEvent(QPaintEvent *)
     painter.setBrush(QColor(0,0,0,0));
     painter.drawRect(0, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 */
-    int batterySlideSideSpacer = 20;
+    int batterySlideSideSpacer = 50;
     int batteryColoumn0L = batterySlideSideSpacer;
     int batteryColoumno0R = BAT_WIDTH + batterySlideSideSpacer;
     int upperOffset = 45;
