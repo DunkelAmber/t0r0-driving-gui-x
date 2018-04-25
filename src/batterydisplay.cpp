@@ -26,4 +26,8 @@ void BatteryDisplay::paintEvent(QPaintEvent *)
 	pbattery1 = new BatteryPanel(this);
 	pbattery1->setGeometry(0, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 	pbattery1->show();
+
+	pbattery2 = new BatteryPanel(this);
+	pbattery2->setGeometry(0, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery2->show();
 }
