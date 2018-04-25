@@ -1,6 +1,6 @@
 # t0r0_driving_gui
 
-Another simple GUI for T0R0!
+Another simple GUI for T0-R0 rover!
 
 # Compile from Command-Line
 ```
