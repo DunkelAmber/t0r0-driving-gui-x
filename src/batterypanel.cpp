@@ -38,3 +38,13 @@ void BatteryPanel::paintEvent(QPaintEvent *)
     //battery2->setCharge(100);
     //battery3->setCharge(80);
 }
+
+void BatteryPanel::setCharge(int charge)
+{
+	void BatteryIndicator::setCharge(int charge)
+	{
+	    this->charge = charge;
+	    this->update();
+	}
+
+}

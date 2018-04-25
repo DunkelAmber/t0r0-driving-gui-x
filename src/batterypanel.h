@@ -21,11 +21,13 @@ public:
 signals:
 
 public slots:
+	void setCharge(int charge);
 
 protected:
-     void paintEvent(QPaintEvent *event) Q_DECL_OVERRIDE;
+	void paintEvent(QPaintEvent *event) Q_DECL_OVERRIDE;
 private:
-     BatteryIndicator *battery1, *battery2, *battery3, *battery4, *battery5, *battery6, *battery7, *battery8, *battery9, *battery10;
+	int charge;
+	BatteryIndicator *battery1, *battery2, *battery3, *battery4, *battery5, *battery6, *battery7, *battery8, *battery9, *battery10;
 };
 
 #endif // BATTERYPANEL_H

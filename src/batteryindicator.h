@@ -31,7 +31,7 @@ private:
     bool in_use;
 
 protected:
-    void paintEvent(QPaintEvent *event) Q_DECL_OVERRIDE;
+	void paintEvent(QPaintEvent *event) Q_DECL_OVERRIDE;
 };
 
 #endif // BATTERYINDICATOR_H
