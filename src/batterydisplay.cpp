@@ -41,4 +41,6 @@ void BatteryDisplay::paintEvent(QPaintEvent *)
 
 	pbattery1->setCharge(50);
 	pbattery2->setCharge(85);
+	pbattery2->setCharge(10);
+	pbattery2->setCharge(100);
 }
