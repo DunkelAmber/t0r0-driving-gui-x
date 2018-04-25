@@ -1,9 +1,14 @@
 # t0r0_driving_gui
 
-A simple gui for T0R0!
+Another simple gui for T0R0!
 
 
-# Launch with Makefile
+# Launch from Command-Line
+```
+rosrun t0r0_driving_gui driving_gui
+```
+
+# Update from Git Repository & Launch - with Makefile
 
 
 Create the Makefile in the catkin_ws (Catkin Workspace) folder with the following content. Substitute <user> accordingly to your username
