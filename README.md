@@ -1,20 +1,37 @@
 # t0r0_driving_gui
 
-A simple gui for T0R0!
+Another simple GUI for T0-R0 rover!
+
+# Compile from Command-Line
+```
+cd /home/<user>/catkin_ws/ && catkin_make
+```
+
+# Launch from Command-Line
+```
+rosrun t0r0_driving_gui driving_gui
+```
+
+# Update from Git Repository & Launch - with Makefile
 
 
-# Launch with Makefile
-
-Makefile
-'''
+Create the Makefile in the catkin_ws (Catkin Workspace) folder with the following content. Substitute \<user\> accordingly to your username
+```
 all:	 update	compile	show
 
 update:
-	cd /home/francesco/catkin_ws/src/t0r0_driving_gui/ && git pull origin master
+	cd /home/<user>/catkin_ws/src/t0r0_driving_gui/ && git pull origin master
 
 compile:
-	cd /home/francesco/catkin_ws/	&& catkin_make
+	cd /home/<user>/catkin_ws/	&& catkin_make
 
 show:
 	rosrun t0r0_driving_gui driving_gui
-'''
+```
+
+ and the launch with
+```
+make
+```
+
+*tested on Ubuntu 16.04LTS with ROS Kinetic*
