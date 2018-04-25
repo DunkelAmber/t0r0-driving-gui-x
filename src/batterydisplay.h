@@ -27,7 +27,7 @@ class BatteryDisplay : public QWidget
 protected:
 	void paintEvent(QPaintEvent *event) Q_DECL_OVERRIDE;
 private:
- 	BatteryPanel *battery1, *battery2, *battery3, *battery4, *battery5, *battery6, *battery7, *battery8, *battery9, *battery10;
+ 	BatteryPanel *pbattery1, *pbattery2, *pbattery3, *pbattery4, *pbattery5, *pbattery6, *pbattery7, *pbattery8, *pbattery9, *pbattery10;
 };
 
 #endif // BATTERYDISPLAY_H

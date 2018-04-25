@@ -23,7 +23,7 @@ void BatteryDisplay::paintEvent(QPaintEvent *)
 	painter.drawRect(0, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 
 	int panelRightExtreme = BAT_PANEL_WIDTH + PANEL_OFFSET_LEFT + PANEL_OFFSET_RIGHT;
-	battery1 = new BatteryPanel(this);
-	battery1->setGeometry(0, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
-	battery1->show();
+	pbattery1 = new BatteryPanel(this);
+	pbattery1->setGeometry(0, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery1->show();
 }
