@@ -1,6 +1,6 @@
 # t0r0_driving_gui
 
-Another simple gui for T0R0!
+Another simple GUI for T0R0!
 
 # Compile from Command-Line
 ```
