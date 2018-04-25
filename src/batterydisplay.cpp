@@ -30,4 +30,7 @@ void BatteryDisplay::paintEvent(QPaintEvent *)
 	pbattery2 = new BatteryPanel(this);
 	pbattery2->setGeometry(250, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 	pbattery2->show();
+
+	pbattery1->setCharge(80);
+	pbattery2->setCharge(40);
 }
