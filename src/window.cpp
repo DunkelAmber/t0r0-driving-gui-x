@@ -1,5 +1,8 @@
 #include "window.h"
 
+#define ROVIMG_WIDTH 375
+#define ROVIMG_HEIGHT 580
+
 // Constructor
 Window::Window(QRect screen, QWidget *parent) : QWidget(parent)
 {
@@ -16,7 +19,8 @@ Window::Window(QRect screen, QWidget *parent) : QWidget(parent)
 
     QLabel *pixlabel = new QLabel(this);
     QPixmap pix("/home/francesco/catkin_ws/src/t0r0_driving_gui/Images/rover_up-357x580.png");
-	pixlabel->setPixmap(pix.scaled(100, 100, Qt::KeepAspectRatio));
+	pixlabel->setPixmap(pix.scaled(ROVIMG_WIDTH, ROVIMG_HEIGHT, Qt::KeepAspectRatio));
+	pixlabel->setGeometry( (this->width() - ROVIMG_WIDTH) /2, (this->height() - ROVIMG_HEIGHT) /2 );
 
     //QPixmap mypix(":/img/rover_up-357x580.png");
     //painter.drawPixmap(0,0,600,600, mypix);
