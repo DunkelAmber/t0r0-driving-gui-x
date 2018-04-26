@@ -12,7 +12,8 @@ Window::Window(QRect screen, QWidget *parent) : QWidget(parent)
     // set black background
     QPalette pal = palette();
     //pal.setColor(QPalette::Background, Qt::black);
-    pal.setColor(QPalette::Background, QColor(52,55,63,255));
+    //pal.setColor(QPalette::Background, QColor(52,55,63,255));
+	pal.setColor(QPalette::Background, QColor(40,44,52,255));
     this->setAutoFillBackground(true);
     this->setPalette(pal);
 
