@@ -28,7 +28,7 @@ void BatteryDisplay::paintEvent(QPaintEvent *)
 	pbattery1->show();
 
 	pbattery2 = new BatteryPanel(this);
-	pbattery2->setGeometry(250, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery2->setGeometry(BAT_PANEL_HEIGHT+25, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 	pbattery2->show();
 
 	pbattery3 = new BatteryPanel(this);
@@ -36,7 +36,7 @@ void BatteryDisplay::paintEvent(QPaintEvent *)
 	pbattery3->show();
 
 	pbattery4 = new BatteryPanel(this);
-	pbattery4->setGeometry(250, 450, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery4->setGeometry(BAT_PANEL_HEIGHT+25, 450, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 	pbattery4->show();
 
 	pbattery1->setCharge(50);
