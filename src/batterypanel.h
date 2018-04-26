@@ -7,8 +7,8 @@
 
 #define BAT_PANEL_POSX 700
 #define BAT_PANEL_POSY 300
-#define BAT_PANEL_WIDTH 500
-#define BAT_PANEL_HEIGHT 700
+#define BAT_PANEL_WIDTH 250
+#define BAT_PANEL_HEIGHT 100
 
 //#define COL_SPACER 10
 //#define ROW_SPACER 10
