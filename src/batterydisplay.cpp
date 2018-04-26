@@ -20,7 +20,7 @@ void BatteryDisplay::paintEvent(QPaintEvent *)
 	painter.drawText(0, 17, "Battery Pack");
 
 	painter.setBrush(QColor(0,0,0,0));
-	painter.drawRect(0, 0, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	painter.drawRect(0, 0, BAT_DISPLAY_WIDTH, BAT_DISPLAY_HEIGHT);
 
 	int panelRightExtreme = BAT_PANEL_WIDTH + PANEL_OFFSET_LEFT + PANEL_OFFSET_RIGHT;
 	pbattery1 = new BatteryPanel(this);
