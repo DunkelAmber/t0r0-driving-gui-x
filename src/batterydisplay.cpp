@@ -32,35 +32,35 @@ void BatteryDisplay::paintEvent(QPaintEvent *)
 	pbattery2->show();
 
 	pbattery3 = new BatteryPanel(this);
-	pbattery3->setGeometry(0, BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery3->setGeometry(0, 1*(BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER, BAT_PANEL_WIDTH), BAT_PANEL_HEIGHT);
 	pbattery3->show();
 
 	pbattery4 = new BatteryPanel(this);
-	pbattery4->setGeometry(BAT_PANEL_WIDTH+25, BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery4->setGeometry(BAT_PANEL_WIDTH+25, 1*(BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER), BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 	pbattery4->show();
 
 	pbattery5 = new BatteryPanel(this);
-	pbattery5->setGeometry(0, BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery5->setGeometry(0, 2*(BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER), BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 	pbattery5->show();
 
 	pbattery6 = new BatteryPanel(this);
-	pbattery6->setGeometry(BAT_PANEL_WIDTH+25, BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery6->setGeometry(BAT_PANEL_WIDTH+25, 2*(BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER), BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 	pbattery6->show();
 
 	pbattery7 = new BatteryPanel(this);
-	pbattery7->setGeometry(0, BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery7->setGeometry(0, 3*(BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER), BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 	pbattery7->show();
 
 	pbattery8 = new BatteryPanel(this);
-	pbattery8->setGeometry(BAT_PANEL_WIDTH+25, BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery8->setGeometry(BAT_PANEL_WIDTH+25, 3*(BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER), BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 	pbattery8->show();
 
 	pbattery9 = new BatteryPanel(this);
-	pbattery9->setGeometry(0, BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery9->setGeometry(0, 4*(BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER), BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 	pbattery9->show();
 
 	pbattery10 = new BatteryPanel(this);
-	pbattery10->setGeometry(BAT_PANEL_WIDTH+25, BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER, BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
+	pbattery10->setGeometry(BAT_PANEL_WIDTH+25, 4*(BAT_PANEL_HEIGHT+PANEL_VERTICAL_SPACER), BAT_PANEL_WIDTH, BAT_PANEL_HEIGHT);
 	pbattery10->show();
 
 	pbattery1->setCharge(50);
