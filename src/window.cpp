@@ -14,8 +14,9 @@ Window::Window(QRect screen, QWidget *parent) : QWidget(parent)
     this->setPalette(pal);
 
 
-    //QLabel *pixlabel = new QLabel(this);
-    //QPixmap mypix(":/img/rover_up-357x580.png");
+    QLabel *pixlabel = new QLabel(this);
+    QPixmap pix("/home/francesco/catkin_ws/src/t0r0_driving_gui/Images/rover_up-357x580.png");
+	this->pixlabel->setPixmap(pix.scaled(100, 100, Qt::KeepAspectRatio));
 
     //QPixmap mypix(":/img/rover_up-357x580.png");
     //painter.drawPixmap(0,0,600,600, mypix);
